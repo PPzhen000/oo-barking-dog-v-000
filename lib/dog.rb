@@ -1,6 +1,6 @@
 class Dog
   def initialize(bark)
-    puts "woof!"
+    @bark = "woof!"
   end
 
   def name=(dogs_name)
